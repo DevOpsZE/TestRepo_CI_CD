@@ -27,7 +27,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "Test Build with GitHub Workflow!"
-          echo "Cloning Repo"
-          git clone https://github.com/DevOpsZE/TestRepo_CI_CD
           echo "Displaying content of README.md"
           cat README.md
